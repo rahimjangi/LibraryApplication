@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/rating")
+@RequestMapping("/ratings")
 public class RatingController {
     private final RatingService ratingService;
 

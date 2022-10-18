@@ -8,6 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BookAPI" />
+        <module name="DiscoveryServer" />
+        <module name="GatewayServer" />
+        <module name="ConfigurationServer" />
         <module name="RatingAPI" />
       </profile>
     </annotationProcessing>
@@ -15,6 +18,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BookAPI" options="-parameters" />
+      <module name="ConfigurationServer" options="-parameters" />
+      <module name="DiscoveryServer" options="-parameters" />
+      <module name="GatewayServer" options="-parameters" />
       <module name="RatingAPI" options="-parameters" />
     </option>
   </component>
